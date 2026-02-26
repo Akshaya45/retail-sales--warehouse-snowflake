@@ -88,4 +88,3 @@ SELECT
     (SELECT SUM(sales_price) FROM SILVER.FACT_SALES) AS silver_total,
     (SELECT SUM(total_sales) FROM GOLD.SALES_BY_YEAR) AS gold_total;
 
-
